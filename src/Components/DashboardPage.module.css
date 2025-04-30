@@ -1,0 +1,76 @@
+.dashboardBody {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f1f3fb;
+}
+
+.sidebar {
+  width: 240px;
+  background: #2b2f3e;
+  color: white;
+  position: fixed;
+  height: 100vh;
+  padding: 1rem 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+}
+
+.sidebar img {
+  width: 80%;
+  margin-bottom: 2rem;
+}
+
+.sidebar button {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 16px;
+  padding: 1rem 2rem;
+  text-align: left;
+  width: 100%;
+  cursor: pointer;
+}
+
+.sidebar button:hover,
+.active {
+  background-color: #0d6efd;
+}
+
+.main {
+  margin-left: 240px;
+  padding: 2rem;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.card {
+  background: white;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+}
+
+.applyButton {
+  background: orange;
+  color: white;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 1rem;
+}
+
+.journeyStatus {
+  margin-top: 1rem;
+}
+
+.journeyStatus div {
+  margin-bottom: 0.5rem;
+}

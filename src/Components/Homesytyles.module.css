@@ -1,0 +1,146 @@
+/* Reset */
+:global(*) {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:global(body) {
+  font-family: sans-serif;
+  background-color: #f3f4f6;
+  /* display: flex; */
+  height: 100vh;
+  width: 100vw;
+}
+
+/* Header */
+.header {
+  background-color: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.headerContainer {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logoImg {
+  height: 48px;
+  width: 200px;
+}
+
+/* Nav */
+.navMenu {
+  display: flex;
+  gap: 16px;
+}
+
+.navMenu a {
+  color: #4b5563;
+  text-decoration: none;
+}
+
+.navMenu a:hover {
+  color: #2563eb;
+}
+
+.navButtons {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.admissionsBtn {
+  background-color: #f97316;
+  color: white;
+  padding: 8px 16px;
+  border-radius: 4px;
+  text-decoration: none;
+}
+
+.menuIcon {
+  font-size: 24px;
+  color: #4b5563;
+}
+
+/* Layout */
+.mainContainer {
+  display: flex;
+}
+
+/* Sidebar */
+.sidebar {
+  background-color: #1e3a8a;
+  color: white;
+  width: 250px;
+  padding: 16px;
+}
+
+.sidebar ul {
+  list-style: none;
+}
+
+.sidebar a {
+  display: block;
+  padding: 8px 0;
+  color: white;
+  text-decoration: none;
+}
+
+/* Main content */
+.mainContent {
+  flex: 1;
+  background-color: #1e40af;
+  color: white;
+  padding: 32px;
+}
+
+.contentWrapper {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.contactInfo {
+  max-width: 600px;
+}
+
+.contactInfo h2 {
+  font-size: 24px;
+  margin-bottom: 16px;
+}
+
+.contactInfo h3 {
+  font-size: 20px;
+  margin-top: 16px;
+  margin-bottom: 8px;
+}
+
+.contactSection p,
+.addressSection p {
+  margin-bottom: 8px;
+}
+
+.contactSection i,
+.addressSection i {
+  margin-right: 8px;
+}
+
+/* Button */
+.applyBtnContainer {
+  display: flex;
+  align-items: center;
+}
+
+.applyBtn {
+  background-color: white;
+  color: #1e40af;
+  padding: 8px 16px;
+  border-radius: 4px;
+  text-decoration: none;
+  font-weight: bold;
+}

@@ -1,0 +1,61 @@
+.adminLoginContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f7f7f7;
+}
+
+.adminLoginBox {
+  background-color: #ffffff;
+  padding: 2rem 3rem;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 350px;
+}
+
+.adminLoginTitle {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  font-size: 24px;
+  color: #333;
+}
+
+.adminLoginForm {
+  display: flex;
+  flex-direction: column;
+}
+
+.adminInputGroup {
+  margin-bottom: 1rem;
+}
+
+.adminInputGroup label {
+  display: block;
+  margin-bottom: 0.5rem;
+  color: #555;
+}
+
+.adminInputGroup input {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 16px;
+}
+
+.adminLoginButton {
+  margin-top: 1rem;
+  padding: 0.75rem;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.adminLoginButton:hover {
+  background-color: #0056b3;
+}
